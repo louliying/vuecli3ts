@@ -42,6 +42,9 @@
 
 
 8. 增加proxy代理配置
+	自定义webpack配置， 在根目录下， 新建vue.config.js
+	
+
 
 
 
