@@ -30,7 +30,20 @@
 	基于“0配置”原则， 少了cli2项目的build, config文件+
 	提供了vue ui，可视化配置
 
-7. 定制化 webpack配置
+7. 环境变量和mode
+	cli3 有三种mode:  development(vue-cli-service serve), production(vue-cli-service build), test(vue-cli-service test:unit)
+	每个mode下， 可以通过命令行里的 --mode 来取相应配置的环境 变量， 所以每个mode下，可以有多种配置
+	如： 对development 配置 dev,  uat, prd三种环境配置
+	vue-cli-service serve --mode dev    它会读.env.dev里的配置， 会先读.env,再读.env.dev , 再.env.dev.local 三个文件合并后的值
+	vue-cli-service serve --mode uat    它会读.env.uat里的配置
+	vue-cli-service serve --mode prd    它会读.env.prd里的配置
+
+	在.env的配置文件里， key=value， 请不要加“;”哦， 会被当成值传进去的。
+
+
+
+
+
 
 
 

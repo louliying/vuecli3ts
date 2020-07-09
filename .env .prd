@@ -1,0 +1,2 @@
+ NODE_ENV = 'prd'
+VUE_APP_PRE   = 'https://mgtportal-tc.mobje.faw-vw.com'

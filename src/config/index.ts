@@ -1,7 +1,9 @@
 let api: any = Object.create(null);
-console.log('VUE_APIHOST 1--------------1:', process.env.NODE_ENV);
+// 读了根目录下env.相应model的配置文件
 let env: any = process.env.NODE_ENV;
-let sPref : string = '';
+console.log('env aaa------a:', env);
+let sPref: string = process.env.VUE_APP_PRE;
+/*let sPref : string = '';
 switch (env) {
 	case 'uat':
 		sPref = 'https://mgtportal-tc-uat.mobje.faw-vw.com';
@@ -12,8 +14,7 @@ switch (env) {
 	default:
 		sPref = '';
 		break;
-
-}
+}*/
 api=  {
 	sPath: sPref,	
 	login: '/api/cruiseuserbasic/w/login', //登陆
