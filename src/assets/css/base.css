@@ -1,0 +1,209 @@
+body{
+    padding:0;
+    margin:0;
+}
+/*tooltip与tags的结合*/
+.label-rule i.el-icon-close {
+	right: 18px !important;
+}
+
+/*组件*/
+.content{
+	height: 100%;
+    width: 100%;
+    /*overflow: auto;*/
+    box-sizing: border-box;
+}
+/*组件里的头部表单*/
+.search-form {
+	width: 100%;
+	height: auto;
+	background-color: #FFFFFF;
+	padding: 5px 10px;
+	box-sizing: border-box;
+}
+/*清楚浮动*/
+.search-form:after{
+	content:"";
+	display:block;
+	visibility:hidden;
+	clear:both;
+	height:0;
+}
+/*主要内容展示区域*/
+.main-context{
+	margin-top: 20px;
+	width: 100%;
+	height: auto;
+	background-color: #FFFFFF;
+	padding: 20px;
+	box-sizing: border-box;
+}
+/*分页*/
+.page{
+    margin-top: 10px;
+    text-align: right;
+}
+/*dialog*/
+.el-dialog__header{
+	border-bottom: 1px solid darkgrey !important;
+}
+.el-dialog__body {
+    padding: 20px 20px 10px 20px;
+}
+/*tree*/
+.el-tree {
+    border: 1px solid #ebeef5;
+}
+.formTitle{
+	height: 30px;
+	border-bottom: 1px dashed #409EFF;
+	margin-bottom: 10px;
+	color: #409EFF;
+	font-size: 16px;
+	font-weight: 800;
+}
+/*//====================*/
+.menu{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    font-size: 14px;
+    background-color: white;
+    /*color: #FF6709;*/
+    color: #409EFF;
+    box-sizing: border-box;
+}
+.mainContent1{
+    padding: 20px;
+    box-sizing: border-box;
+}
+.page{
+    margin-top: 10px;
+    text-align: right;
+}
+
+.panel {
+    margin-top: 20px;
+    border: #dfe0e0 solid 1px;
+    background: #fff;
+    color: #666;
+    font-size: 14px;
+}
+
+.panel-header {
+    height: 50px;
+    padding: 0 30px;
+    line-height: 50px;
+    font-size: 16px;
+    border-top: #dfe0e0 solid 5px;
+    border-bottom: #dfe0e0 solid 1px;
+}
+.panel-body {
+    padding: 30px;
+}
+
+.pull-right {
+    float: right;
+}
+.text-right{
+	text-align: right;
+}
+.inline-block{
+    display: inline-block
+}
+.margin-bottom22{
+	margin-bottom: 22px !important;
+}
+.width1{
+    width: 100px !important;
+}
+.width150{
+    width: 150px !important;
+}
+.width105{
+    width: 105px !important;
+}
+.fuwu{
+    width: 120px !important;
+}
+.shoufei{
+    width: 140px !important;
+}
+.width18{
+    width: 180px !important;
+}
+.width2{
+    width: 200px !important;
+}
+.width24{
+    width: 240px !important;
+}
+.width26{
+    width: 260px !important;
+}
+.width3{
+    width: 300px !important;
+}
+.width38{
+    width: 380px !important;
+}
+.width4{
+    width: 400px !important;
+}
+.width5{
+    width: 500px !important;
+}
+.width6{
+    width: 600px !important;
+}
+.left0{
+    margin-left: 0 !important;
+}
+.left10{
+    margin-left: 10px !important;
+}
+.right-5{
+    margin-right: -5px !important;
+}
+.right0{
+    margin-right: 0 !important;
+}
+.right10{
+    margin-right: 10px !important;
+}
+/*.right50{   并列间距太宽
+    margin-right: 50px !important;
+}*/
+.left60{
+    margin-left: 60px !important;
+}
+.top-20{
+	margin-top: -20px;
+}
+/*添加图标样式*/
+.icon-add{
+    background-color: rgb(21, 145, 202);
+    width: 80px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+/*序号样式*/
+.icon-index{
+    line-height: 10px;
+    background-color: rgba(0, 0, 255, 0.38);
+    border: none;
+    box-shadow: 0 0 20px #9e9e9e85;
+}
+
+
+

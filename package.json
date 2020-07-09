@@ -1,0 +1,43 @@
+{
+  "name": "eoms-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "uat": "vue-cli-service serve --mode uat",    
+    "build": "vue-cli-service build",
+    "build-uat": "vue-cli-service build --mode uat"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "element-ui": "^2.4.5",
+    "vue": "^2.6.11",
+    "vue-axios": "^2.1.5",
+    "vue-property-decorator": "^8.4.2",
+    "vue-router": "^3.2.0",
+    "vuescroll": "^4.16.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.4.0",
+    "@vue/cli-plugin-router": "~4.4.0",
+    "@vue/cli-plugin-typescript": "~4.4.0",
+    "@vue/cli-service": "~4.4.0",
+    "axios": "^0.19.2",
+    "css-loader": "^3.6.0",
+    "element-ui": "^2.13.2",
+    "node-sass": "^4.12.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "typescript": "~3.9.3",
+    "vue-class-component": "^7.2.3",
+    "vue-cli-plugin-element": "~1.0.1",
+    "vue-loader": "^15.9.3",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
